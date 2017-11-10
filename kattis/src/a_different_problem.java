@@ -1,11 +1,10 @@
-package kattis;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class a_different_problem {
 
+	
 	public static void main(String[] args) throws IOException {
 		//System.out.println(Long.MAX_VALUE);
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
