@@ -1,5 +1,3 @@
-package kattis;
-
 import java.util.Scanner;
 
 public class Tarifa {
@@ -8,9 +6,11 @@ public class Tarifa {
         Scanner s = new Scanner(System.in);
         int megaBytesPerMonth = s.nextInt();
         int n = s.nextInt();
+        int n_1 =  megaBytesPerMonth;
         for(int i = 0 ; i < n ; i++){
-            System.out.println((i+1) + " Abracadabra");
+            n_1 += megaBytesPerMonth - s.nextInt();
         }
+        System.out.println(n_1);
     }
 
 }
