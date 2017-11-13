@@ -1,4 +1,4 @@
-package kattis;
+
 import java.util.Scanner;
 public class StuckInATimeLoop {
     public static void main(String[]args){
