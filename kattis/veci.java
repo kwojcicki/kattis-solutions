@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 
 public class veci {
 
+	// not working yet
 	public static void main(String[] args) throws IOException {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		char[] x = in.readLine().toCharArray();
