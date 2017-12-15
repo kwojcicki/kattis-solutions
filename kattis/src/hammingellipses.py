@@ -24,7 +24,37 @@ g = str(int(sys.stdin.readline()))
 q, n, d = (int (d) for d in data.split())
 
 
-hd = hm (f,g)
+diff = hm (f,g)
+sim = n - diff
 
-#need to draw it out 
+# sim = 2x diff only, posible positions 
+# n - 1, 1 0x 
+
+# diff 1x or 2x, n-2 2x, and 2 1x 
+
+print diff 
+print sim 
+
+
+if (d > n): 
+    print 0 
+    sys.exit()
+elif (diff > n):
+    print 0 
+    sys.exit()
+
+#calc number of evens and odds needed
+#single = 2x 
+#double = 1x 
+
+#single = n - 2 
+#double = n -1 
+
+
+
+
+
+
+
+
 
