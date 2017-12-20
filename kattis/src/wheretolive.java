@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class wheretolive {
+	//Not fully working yet
 	public static void main(String[] args) throws IOException {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		for(String s = in.readLine(); s != null && !s.equals("0"); s = in.readLine() ){
